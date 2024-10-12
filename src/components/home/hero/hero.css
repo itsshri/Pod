@@ -1,0 +1,138 @@
+.hero {
+  background-image: url("https://img.freepik.com/free-photo/brown-luxury-pod-home-hill-sun-day_73899-13456.jpg?t=st=1727927811~exp=1727931411~hmac=38c965402994d53c4d2d5fa04ae1e0265eaa7ff8c5edce4e6f1900d5e79580c1&w=1060");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.hero .container {
+  padding-top: 15%;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 60px;
+}
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+}
+form {
+  background-color: #f9feff;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form span {
+  font-size: 14px;
+  color: rgb(14, 1, 1);
+}
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
+
+
+form select, form input[type="date"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: black;
+}
+
+
+/* Add to hero.css */
+
+/* Dropdown button styling */
+.dropdown-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+  background-color: #000405;
+  cursor: pointer;
+}
+
+/* Dropdown menu container */
+.dropdown-menu {
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+}
+
+/* Dropdown items */
+.dropdown-item {
+  margin-bottom: 10px;
+}
+
+/* Ensure last item has no margin */
+.dropdown-item:last-child {
+  margin-bottom: 0;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-controls input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+}
+
+.quantity-controls button:hover {
+  background-color: #ddd;
+}
+
